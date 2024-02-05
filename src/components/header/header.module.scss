@@ -1,0 +1,47 @@
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 1120px;
+	margin: 0 auto;
+	padding-top: 47px;
+	padding-bottom: 40px;
+}
+
+.title {
+	font-size: 24px;
+	color: #1c2a39;
+	line-height: 29px;
+	margin: 0;
+}
+
+.menu {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 372px;
+	width: 100%;
+}
+
+.menu__a {
+	font-size: 10px;
+	font-weight: 700;
+	color: #5c6a79;
+	cursor: pointer;
+	text-transform: uppercase;
+	&:first-of-type {
+		color: #1c2a39;
+	}
+}
+
+.account_svg {
+	display: flex;
+	justify-content: space-between;
+	max-width: 120px;
+	width: 100%;
+}
+
+.user_svg,
+.shop_svg {
+	cursor: pointer;
+}

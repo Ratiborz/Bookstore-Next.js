@@ -1,0 +1,55 @@
+.swiper_wrapper {
+	position: relative;
+	max-width: 1120px;
+	margin: 0 auto;
+	margin-bottom: 105px;
+}
+
+.swiper_dots {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 56px;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 17px;
+}
+
+.swiper_dots__dot {
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background-color: #efeef6;
+	cursor: pointer;
+	&:first-of-type {
+		background-color: #9e98dc;
+	}
+}
+
+.promo_01 {
+	position: absolute;
+	top: 79px;
+	right: -85px;
+	max-width: 149px;
+	width: 100%;
+	background-color: #9e98dc;
+	padding: 102px 20px 20px 20px;
+}
+
+.promo_02 {
+	position: absolute;
+	top: 359px;
+	right: -160px;
+	max-width: 137px;
+	width: 100%;
+	background-color: #ff8fe6;
+	padding: 149px 47px 20px 21px;
+}
+
+.promo__p {
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 700;
+	margin: 0;
+	margin-bottom: 4px;
+}
