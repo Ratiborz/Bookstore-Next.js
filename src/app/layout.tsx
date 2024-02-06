@@ -1,3 +1,4 @@
+import Header from '@/components/header/header';
 import type { Metadata } from 'next';
 import { Inter, Montserrat, Open_Sans } from 'next/font/google';
 import 'normalize.css';
@@ -36,7 +37,10 @@ export default function RootLayout({
 			<body
 				className={`${inter.variable} ${open_sans.variable} ${montserrat.variable}`}
 			>
-				{children}
+				<div className='container'>
+					<Header />
+					{children}
+				</div>
 			</body>
 		</html>
 	);

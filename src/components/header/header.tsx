@@ -1,10 +1,13 @@
 import GlobalSvgSelector from '@/assets/icons/GlobalSvgSelector';
+import Link from 'next/link';
 import s from './header.module.scss';
 
 export default function Header() {
 	return (
 		<header className={s.header}>
-			<h1 className={s.title}>Bookshop</h1>
+			<Link href='/'>
+				<h1 className={s.title}>Bookshop </h1>
+			</Link>
 			<div className={s.menu}>
 				<a className={s.menu__a}>books</a>
 				<a className={s.menu__a}>audiobooks</a>
@@ -13,10 +16,14 @@ export default function Header() {
 			</div>
 			<div className={s.account_svg}>
 				<div className={s.user_svg}>
-					<GlobalSvgSelector id='user' />
+					<Link href='/profile'>
+						<GlobalSvgSelector id='user' />
+					</Link>
 				</div>
 				<div className={s.shop_svg}>
-					<GlobalSvgSelector id='shop-bag' />
+					<Link href='/basket'>
+						<GlobalSvgSelector id='shop-bag' />
+					</Link>
 				</div>
 			</div>
 		</header>

@@ -1,7 +1,5 @@
 .swiper_wrapper {
 	position: relative;
-	max-width: 1120px;
-	margin: 0 auto;
 	margin-bottom: 105px;
 }
 
@@ -21,9 +19,12 @@
 	border-radius: 50%;
 	background-color: #efeef6;
 	cursor: pointer;
-	&:first-of-type {
-		background-color: #9e98dc;
-	}
+	transition: 0.3s;
+}
+
+.active {
+	background-color: #9e98dc;
+	transition: 0.3s;
 }
 
 .promo_01 {

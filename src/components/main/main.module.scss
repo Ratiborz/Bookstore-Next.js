@@ -1,0 +1,11 @@
+.book_cards {
+	display: grid;
+	width: 100%;
+	grid-template-columns: repeat(2, 424px);
+	grid-template-rows: repeat(3, 300px);
+	row-gap: 95px;
+	column-gap: 76px;
+	justify-content: end;
+	padding-top: 45px;
+	margin-bottom: 84px;
+}
