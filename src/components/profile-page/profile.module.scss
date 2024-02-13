@@ -1,0 +1,83 @@
+.wrapper__profile {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 87px;
+}
+
+.data_title {
+	font-size: 24px;
+	line-height: 29px;
+	margin-top: 0;
+	margin-bottom: 12px;
+}
+
+.data {
+	display: flex;
+	flex-direction: column;
+}
+
+.data__general {
+	display: flex;
+}
+
+.personal__info {
+	display: flex;
+	flex-direction: column;
+	margin-left: 17px;
+}
+
+.initials__title {
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 15px;
+	margin: 0;
+	margin-bottom: 8px;
+}
+
+.initials__name {
+	font-size: 24px;
+	line-height: 29px;
+	margin-top: 0;
+	margin-bottom: 25px;
+}
+
+.email__title {
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 15px;
+	margin: 0;
+	margin-bottom: 8px;
+}
+
+.email__your {
+	font-size: 24px;
+	line-height: 29px;
+	margin: 0;
+	margin-bottom: 41px;
+}
+
+.about {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	max-width: 353px;
+	height: 345px;
+	background-color: #ffe0e2;
+	padding: 17px 29px 0 29px;
+}
+
+.about__title {
+	margin-top: 0;
+	margin-bottom: 29px;
+	font-size: 12px;
+	line-height: 15px;
+}
+
+.about__description {
+	color: #5c6a79;
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 15px;
+	margin: 0;
+}
